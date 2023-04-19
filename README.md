@@ -59,19 +59,3 @@ some extra desired features/fixes are:
 - ~~support for more complex expenses: shared payment, divide by a subgroup~~ (must change storage model, too complicated for now)
 - ... and more!
 
-## ❤️ contribute
-
-1. clone repo
-2. install npm packages: `npm install`
-3. start the server (with hot reloading): `npm run dev`
-4. navigate to [localhost:3000](http://localhost:5000)
-
-## ⚠️ disclaimer
-
-even though all information is encrypted and decrypted on-device (e2ee), i'm not a security expert. given this, i'm looking for more people to review the encryption code and fix any vulnerabilities.
-
-also, as the code uses Gun with community servers and localStorage, persisting data for long amounts of time could be an issue. try to open your group often to get more devices updated. in the future, i should probably self-host a Gun relay, though i don't currently have the means necessary.
-
-## ⚖️ license
-
-AGPL
